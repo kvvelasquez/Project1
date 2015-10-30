@@ -1,0 +1,83 @@
+.welcome{
+  font-style: normal;
+  text-align: center;
+  color: #FF8F07;
+  position: relative;
+  top: 10px;
+  font-size: 24px;
+}
+
+.vision{
+  background-color: #FF8F07;
+  position: relative;
+  left: 20px;
+  right: 270px;
+  top: -25px;
+  width: 250px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #FFFFFF;
+  padding: 40px;
+  display: inline-block;
+  height: 210px;
+}
+
+.purpose{
+  background-color: #FF8F07;
+  position: relative;
+  width: 250px;
+  left: 150px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #FFFFFF;
+  padding: 40px;
+  display: inline-block;
+}
+
+.mission{
+  background-color: #FF8F07;
+  position: relative;
+  left: 240px;
+  width: 250px;
+  text-align: center;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #FFFFFF;
+  padding: 40px;
+  display: inline-block;
+}
+
+.overlay{
+  background-color: #FFFFFF;
+  width: 1280px;
+  position: relative;
+  left : 15px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.button{
+    background-color: #FF8F07;
+    width: 310px;
+    position: relative;
+    left : 500px;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: "Raleway", sans-serif;
+}
+
+body{
+  background-image: url('lifepointIcon2.jpg');
+  background-repeat: repeat;
+}
+
+h1{
+  font-family: "Montserrat", sans-serif;
+}
+
+h2{
+  font-family: "Raleway", sans-serif;
+}
