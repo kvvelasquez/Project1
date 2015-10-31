@@ -59,6 +59,28 @@
   border-radius: 20px;
   padding: 10px;
 }
+
+.portfoliooverlay{
+  position: relative;
+  left: 15px;
+  width: 1280px;
+  height: 965px;
+  padding: 10px;
+  border-radius: 20px;
+  border-style: solid;
+  border: 5px;
+  background-color: #FFFFFF;
+}
+
+.portfoliooverlay .info{
+  position:absolute;
+  left: 575px;
+  top: 150px;
+  bottom: -100px;
+  right: 150px;
+  color: #000000;
+}
+
 .button{
     background-color: #FF8F07;
     width: 310px;
