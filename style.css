@@ -81,14 +81,26 @@
   color: #000000;
 }
 
+.inlineinfo{
+  position: absolute;
+  top: 1195px;
+  bottom:0;
+  left:250px;
+  right:0;
+}
+
 .button{
-    background-color: #FF8F07;
-    width: 310px;
+    background-color: #FFFFFF;
+    width: 50px;
     position: relative;
-    left : 500px;
+    left : 600px;
     border-radius: 20px;
     padding: 10px;
     font-family: "Raleway", sans-serif;
+}
+
+.button img{
+  border-radius: 10px;
 }
 
 #banners img{
