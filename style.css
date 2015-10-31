@@ -5,6 +5,7 @@
   position: relative;
   top: 10px;
   font-size: 24px;
+  align-self: center;
 }
 
 .vision{
@@ -13,7 +14,7 @@
   left: 20px;
   right: 270px;
   top: -25px;
-  width: 250px;
+  width: 19.5%;
   border-radius: 20px;
   border-style: solid;
   border-width: 5px;
@@ -26,7 +27,7 @@
 .purpose{
   background-color: #FF8F07;
   position: relative;
-  width: 250px;
+  width: 19.5%;
   left: 150px;
   border-radius: 20px;
   border-style: solid;
@@ -40,8 +41,7 @@
   background-color: #FF8F07;
   position: relative;
   left: 240px;
-  width: 250px;
-  text-align: center;
+  width: 19.5%;
   border-radius: 20px;
   border-style: solid;
   border-width: 5px;
@@ -53,12 +53,12 @@
 .overlay{
   background-color: #FFFFFF;
   width: 1280px;
+  height: 1280px;
   position: relative;
   left : 15px;
   border-radius: 20px;
   padding: 10px;
 }
-
 .button{
     background-color: #FF8F07;
     width: 310px;
@@ -67,6 +67,49 @@
     border-radius: 20px;
     padding: 10px;
     font-family: "Raleway", sans-serif;
+}
+
+#banners img{
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+@keyframes cf3FadeInOut {
+  0% {
+    opacity:1;
+  }
+  45% {
+    opacity:1;
+  }
+  55% {
+    opacity:0;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+#banners{
+  border-style: solid;
+  border-width: 5px;
+  border-color: #FF8F07;
+  position: relative;
+  left: -5px;
+  margin: 0 auto;
+  height: 720px;
+  width: 1280px;
+}
+
+#banners img.bannerbottom{
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: alternate;
 }
 
 body{
